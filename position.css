@@ -1,0 +1,169 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    width: 100%
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.content {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    gap: 15px;
+    margin-top: 200px;
+}
+
+.content .card {
+    width: 330px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.content .card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.content .card div div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    color: "#fff";
+    text-anchor: start;
+}
+
+.content .card div div span {
+    font-size: 16px;
+    font-weight: 900;
+}
+.content .card div div p {
+    font-size: 48px;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.content .card .free {
+    background-color: green;
+}
+.content .card .free div {
+    background-color: #7efa7e;
+}
+.content .card .standard {
+    background-color: blue;
+}
+.content .card .standard div {
+    background-color: #7e7efa;
+}
+.content .card .professional {
+    background-color: red;
+}
+.content .card .professional div {
+    background-color: #fa7e7e;
+}
+
+.content .free {
+    background-color: #ebf6f1;
+}
+.content .standard {
+    background-color: #eceefa;
+}
+.content .professional {
+    background-color: #f9ecec;
+}
+
+.content .card h3 {
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content .free h3 {
+    color: green;
+}
+.content .standard h3 {
+    color: blue;
+}
+.content .professional h3 {
+    color: red;
+}
+
+.content .card p {
+    color: #353535;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .card button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 13px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.content .card .free {
+    background-color: green;
+}
+.content .card .standard {
+    background-color: blue;
+}
+.content .card .professional {
+    background-color: red;
+}
+
+.content .card ul {
+    list-style: none;
+}
+
+.content .card ul li {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+    color: #353535;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px #ccc solid;
+}
+
+.content .card ul li:last-child {
+    border-bottom: none;
+}
+
+.content .card ul li span {
+    font-size: 24px;
+}
